@@ -1,0 +1,65 @@
+Lab: Introduction to JavaScript
+Problems for in-class lab for the “ HYPERLINK "https://softuni.bg/courses/javascript-fundamentals"JavaScript Fundamentals HYPERLINK "https://softuni.bg/courses/javascript-fundamentals"” course @ SoftUni. Submit your solutions in the SoftUni judge system at https://judge.softuni.bg/Contests/287/ HYPERLINK "https://judge.softuni.bg/Contests/287/".
+•	Sum 3 Numbers
+Write a JS function that takes three numbers as input and outputs their sum.
+The input comes as three number arguments passed to your function.
+The output should be printed to the console.
+Examples
+Input	Output		Input	Output
+2, 3, 4	9		1.5, 1.5, -1	1
+•	Sum And VAT
+Write a JS function that sums a variable number of prices and calculates their VAT (Value Add Tax, 20%).
+The input comes as an array of numbers. The number of elements will be different every time.
+The output should be printed to the console on a new line for every entry.
+Input	Output
+[1.20, 2.60, 3.50]	sum = 7.3
+VAT = 1.46
+total = 8.76
+
+Input	Output
+[3.12, 5, 18, 19.24, 1953.2262, 0.001564, 1.1445]	sum = 1999.732264
+VAT = 399.94645280000003
+total = 2399.6787168
+•	Letter Occurrences in String
+Write a JS function that counts how many times a specific letter occurs in a given string.
+The input comes two string arguments. The first element is the string to check and the second element is the letter to count.
+The output should be returned as a result of your function.
+Input	Output		Input	Output
+'hello', 'l'	2		'panther', 'n'	1
+•	Filter By Age
+Write a JS function that stores the name and age of two persons in objects and then filters them by minimum age.
+The input comes as five arguments. The first element is the minimum age. The second and third elements are the name and age of the first person and the fourth and fifth elements – the name and age of the second person. The three age parameters will be numbers, the names will be strings.
+The output should be printed to the console.
+Input	Output
+12, 'Ivan', 15, 'Asen', 9	{ name: 'Ivan', age: 15 }
+•	String of Numbers 1…N
+Write a JS function that read a number n as input and prints all numbers from 1 to n, concatenated as a single string.
+The input comes as one string element that needs to be parsed as a number.
+The output should be returned as a result of your function.
+Input	Output
+'11'	'1234567891011'
+•	Figure Area
+ Write a JS function that calculates the area of the figure on the right by given values for w, h, W and H. The lower right corner is always common for the two rectangles.
+The input comes as four number parameters w, h, W and H.
+The output should be returned as a result of your function.
+Examples
+Input	Output		Input	Output
+2, 4, 5, 3	17		13, 2, 5, 8	56
+•	Next Day
+Write a JS function that calculates the date of the next day by given year, month and day.
+The input comes as three number parameters. The first element is the year, the second is the month and the third is the day.
+The output should be returned as a result of your function.
+Examples
+Input	Output
+2016, 9, 30	2016-10-1
+•	Distance between Points
+Write a JS function that calculates the distance between two points by given x and y coordinates. Use objects to store the two points.
+The input comes as four number elements in the format x1, y1, x2, y2. Each pair of elements are the coordinates of a point in 2D space.
+The output should be returned as a result of your function.
+Examples
+Input	Output
+2, 4, 5, 0	5
+
+Input	Output
+2.34, 15.66, -13.55, -2.9985	24.50778901186315
+
